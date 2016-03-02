@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB159D371C866EDB005B325D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB159D361C866EDB005B325D /* main.m */; };
+		CB159D401C866EDB005B325D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB159D3E1C866EDB005B325D /* Main.storyboard */; };
+		CB159D421C866EDB005B325D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB159D411C866EDB005B325D /* Assets.xcassets */; };
+		CB159D451C866EDB005B325D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB159D431C866EDB005B325D /* LaunchScreen.storyboard */; };
+		CB159D501C866EDB005B325D /* WJTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB159D4F1C866EDB005B325D /* WJTextViewTests.m */; };
+		CB159D5B1C866EDB005B325D /* WJTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB159D5A1C866EDB005B325D /* WJTextViewUITests.m */; };
+		CB159D701C866F6F005B325D /* WJTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB159D6A1C866F6F005B325D /* WJTextView.m */; };
+		CB159D711C866F6F005B325D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB159D6D1C866F6F005B325D /* AppDelegate.m */; };
+		CB159D721C866F6F005B325D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB159D6F1C866F6F005B325D /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB159D4C1C866EDB005B325D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB159D2A1C866EDB005B325D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB159D311C866EDB005B325D;
+			remoteInfo = WJTextView;
+		};
+		CB159D571C866EDB005B325D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB159D2A1C866EDB005B325D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB159D311C866EDB005B325D;
+			remoteInfo = WJTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB159D321C866EDB005B325D /* WJTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB159D361C866EDB005B325D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB159D3F1C866EDB005B325D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB159D411C866EDB005B325D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB159D441C866EDB005B325D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB159D461C866EDB005B325D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB159D4B1C866EDB005B325D /* WJTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB159D4F1C866EDB005B325D /* WJTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJTextViewTests.m; sourceTree = "<group>"; };
+		CB159D511C866EDB005B325D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB159D561C866EDB005B325D /* WJTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB159D5A1C866EDB005B325D /* WJTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJTextViewUITests.m; sourceTree = "<group>"; };
+		CB159D5C1C866EDB005B325D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB159D691C866F6F005B325D /* WJTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJTextView.h; sourceTree = "<group>"; };
+		CB159D6A1C866F6F005B325D /* WJTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJTextView.m; sourceTree = "<group>"; };
+		CB159D6C1C866F6F005B325D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB159D6D1C866F6F005B325D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB159D6E1C866F6F005B325D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB159D6F1C866F6F005B325D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB159D2F1C866EDB005B325D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB159D481C866EDB005B325D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB159D531C866EDB005B325D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB159D291C866EDB005B325D = {
+			isa = PBXGroup;
+			children = (
+				CB159D341C866EDB005B325D /* WJTextView */,
+				CB159D4E1C866EDB005B325D /* WJTextViewTests */,
+				CB159D591C866EDB005B325D /* WJTextViewUITests */,
+				CB159D331C866EDB005B325D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB159D331C866EDB005B325D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB159D321C866EDB005B325D /* WJTextView.app */,
+				CB159D4B1C866EDB005B325D /* WJTextViewTests.xctest */,
+				CB159D561C866EDB005B325D /* WJTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB159D341C866EDB005B325D /* WJTextView */ = {
+			isa = PBXGroup;
+			children = (
+				CB159D681C866F6F005B325D /* WJTextView */,
+				CB159D6B1C866F6F005B325D /* WJTextViewDemo */,
+				CB159D3E1C866EDB005B325D /* Main.storyboard */,
+				CB159D411C866EDB005B325D /* Assets.xcassets */,
+				CB159D431C866EDB005B325D /* LaunchScreen.storyboard */,
+				CB159D461C866EDB005B325D /* Info.plist */,
+				CB159D351C866EDB005B325D /* Supporting Files */,
+			);
+			path = WJTextView;
+			sourceTree = "<group>";
+		};
+		CB159D351C866EDB005B325D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB159D361C866EDB005B325D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB159D4E1C866EDB005B325D /* WJTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB159D4F1C866EDB005B325D /* WJTextViewTests.m */,
+				CB159D511C866EDB005B325D /* Info.plist */,
+			);
+			path = WJTextViewTests;
+			sourceTree = "<group>";
+		};
+		CB159D591C866EDB005B325D /* WJTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB159D5A1C866EDB005B325D /* WJTextViewUITests.m */,
+				CB159D5C1C866EDB005B325D /* Info.plist */,
+			);
+			path = WJTextViewUITests;
+			sourceTree = "<group>";
+		};
+		CB159D681C866F6F005B325D /* WJTextView */ = {
+			isa = PBXGroup;
+			children = (
+				CB159D691C866F6F005B325D /* WJTextView.h */,
+				CB159D6A1C866F6F005B325D /* WJTextView.m */,
+			);
+			path = WJTextView;
+			sourceTree = "<group>";
+		};
+		CB159D6B1C866F6F005B325D /* WJTextViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CB159D6C1C866F6F005B325D /* AppDelegate.h */,
+				CB159D6D1C866F6F005B325D /* AppDelegate.m */,
+				CB159D6E1C866F6F005B325D /* ViewController.h */,
+				CB159D6F1C866F6F005B325D /* ViewController.m */,
+			);
+			path = WJTextViewDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB159D311C866EDB005B325D /* WJTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB159D5F1C866EDB005B325D /* Build configuration list for PBXNativeTarget "WJTextView" */;
+			buildPhases = (
+				CB159D2E1C866EDB005B325D /* Sources */,
+				CB159D2F1C866EDB005B325D /* Frameworks */,
+				CB159D301C866EDB005B325D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJTextView;
+			productName = WJTextView;
+			productReference = CB159D321C866EDB005B325D /* WJTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB159D4A1C866EDB005B325D /* WJTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB159D621C866EDB005B325D /* Build configuration list for PBXNativeTarget "WJTextViewTests" */;
+			buildPhases = (
+				CB159D471C866EDB005B325D /* Sources */,
+				CB159D481C866EDB005B325D /* Frameworks */,
+				CB159D491C866EDB005B325D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB159D4D1C866EDB005B325D /* PBXTargetDependency */,
+			);
+			name = WJTextViewTests;
+			productName = WJTextViewTests;
+			productReference = CB159D4B1C866EDB005B325D /* WJTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB159D551C866EDB005B325D /* WJTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB159D651C866EDB005B325D /* Build configuration list for PBXNativeTarget "WJTextViewUITests" */;
+			buildPhases = (
+				CB159D521C866EDB005B325D /* Sources */,
+				CB159D531C866EDB005B325D /* Frameworks */,
+				CB159D541C866EDB005B325D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB159D581C866EDB005B325D /* PBXTargetDependency */,
+			);
+			name = WJTextViewUITests;
+			productName = WJTextViewUITests;
+			productReference = CB159D561C866EDB005B325D /* WJTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB159D2A1C866EDB005B325D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wj;
+				TargetAttributes = {
+					CB159D311C866EDB005B325D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CB159D4A1C866EDB005B325D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CB159D311C866EDB005B325D;
+					};
+					CB159D551C866EDB005B325D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CB159D311C866EDB005B325D;
+					};
+				};
+			};
+			buildConfigurationList = CB159D2D1C866EDB005B325D /* Build configuration list for PBXProject "WJTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB159D291C866EDB005B325D;
+			productRefGroup = CB159D331C866EDB005B325D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB159D311C866EDB005B325D /* WJTextView */,
+				CB159D4A1C866EDB005B325D /* WJTextViewTests */,
+				CB159D551C866EDB005B325D /* WJTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB159D301C866EDB005B325D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB159D451C866EDB005B325D /* LaunchScreen.storyboard in Resources */,
+				CB159D421C866EDB005B325D /* Assets.xcassets in Resources */,
+				CB159D401C866EDB005B325D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB159D491C866EDB005B325D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB159D541C866EDB005B325D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB159D2E1C866EDB005B325D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB159D701C866F6F005B325D /* WJTextView.m in Sources */,
+				CB159D371C866EDB005B325D /* main.m in Sources */,
+				CB159D721C866F6F005B325D /* ViewController.m in Sources */,
+				CB159D711C866F6F005B325D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB159D471C866EDB005B325D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB159D501C866EDB005B325D /* WJTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB159D521C866EDB005B325D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB159D5B1C866EDB005B325D /* WJTextViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB159D4D1C866EDB005B325D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB159D311C866EDB005B325D /* WJTextView */;
+			targetProxy = CB159D4C1C866EDB005B325D /* PBXContainerItemProxy */;
+		};
+		CB159D581C866EDB005B325D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB159D311C866EDB005B325D /* WJTextView */;
+			targetProxy = CB159D571C866EDB005B325D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB159D3E1C866EDB005B325D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB159D3F1C866EDB005B325D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB159D431C866EDB005B325D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB159D441C866EDB005B325D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB159D5D1C866EDB005B325D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB159D5E1C866EDB005B325D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB159D601C866EDB005B325D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WJTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wj.WJTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB159D611C866EDB005B325D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WJTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wj.WJTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB159D631C866EDB005B325D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WJTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wj.WJTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJTextView.app/WJTextView";
+			};
+			name = Debug;
+		};
+		CB159D641C866EDB005B325D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WJTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wj.WJTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJTextView.app/WJTextView";
+			};
+			name = Release;
+		};
+		CB159D661C866EDB005B325D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WJTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wj.WJTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WJTextView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CB159D671C866EDB005B325D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WJTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wj.WJTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WJTextView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB159D2D1C866EDB005B325D /* Build configuration list for PBXProject "WJTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB159D5D1C866EDB005B325D /* Debug */,
+				CB159D5E1C866EDB005B325D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB159D5F1C866EDB005B325D /* Build configuration list for PBXNativeTarget "WJTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB159D601C866EDB005B325D /* Debug */,
+				CB159D611C866EDB005B325D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB159D621C866EDB005B325D /* Build configuration list for PBXNativeTarget "WJTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB159D631C866EDB005B325D /* Debug */,
+				CB159D641C866EDB005B325D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB159D651C866EDB005B325D /* Build configuration list for PBXNativeTarget "WJTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB159D661C866EDB005B325D /* Debug */,
+				CB159D671C866EDB005B325D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB159D2A1C866EDB005B325D /* Project object */;
+}
