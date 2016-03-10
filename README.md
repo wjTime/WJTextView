@@ -1,12 +1,12 @@
 # WJTextView
-a simple textView have placehoder text and can auto fit text content height (一款简单的含提示文字的textView并可以自动适应文字改变自身的高度)
+a simple textView have placehoder text and can auto fit text content height 提示文字textView 自适应内容高度
 
     // 创建textView
     WJTextView *textView = [[WJTextView alloc]initWithFrame:CGRectMake(0,100, self.view.frame.size.width, 50)];
     // 设置颜色
     textView.backgroundColor = [UIColor redColor];
     // 设置提示文字
-    textView.placehoder = @"boundingRectWithSizeboundingRectzeboundingRectWithSizeboundingRectWithSizeboundingRectWithSize";
+    textView.placehoder = @"带含提示文字的TextView,设置自动适应内容高度功能后,TextView会自动适应改变自身高度";
     // 设置提示文字颜色
     textView.placehoderColor = [UIColor greenColor];
     // 设置textView的字体
